@@ -1,7 +1,11 @@
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/fdc305d2-227e-4939-b048-7ac82b434a50" alt="Argon Assault Space Ship">
+</div>
+
 # Argon Assault
 A Bullet-Hell, Rail-Shooter inspired game. Dodge the projectiles and destroy your enemies!
 
-This game is a follow-along mini project, created in the process of learning Complete C# Unity Game Developer 3D course on Udemy. The game's gameplay mechanics are mostly drawn from the project shown in the course. Furthermore, I personally add a twist of gameplay into the mechanics, which I believe will bring out more gaming excitement from the players.
+This game is a follow-along mini project, created in the process of learning Complete C# Unity Game Developer 3D course on Udemy. The game's gameplay mechanics are mostly drawn from the project shown in the course. Furthermore, I personally added a few twists into the gameplay mechanics, which I believe will bring out more gaming excitement from the players.
 
 # Assets
 Assets used in this project included ones that are available in Unity Asset Store. Here are those assets:
