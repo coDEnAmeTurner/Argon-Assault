@@ -6,6 +6,10 @@
 ![image](https://github.com/user-attachments/assets/96ff2e95-9201-4ac4-a3c5-003d2d4a3f07)
 ![image](https://github.com/user-attachments/assets/8fc0be36-723f-4d54-b8e3-21847b3ae82d)
 
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/b3109370-c6d6-42cb-ab03-af45bb3b9ffd" alt="Argon Assault Space Ship In Action">
+</div>
+
 A Bullet-Hell, Rail-Shooter inspired game. Dodge the projectiles and destroy your enemies!
 
 This game is a follow-along mini project, created in the process of learning Complete C# Unity Game Developer 3D course on Udemy. The game's gameplay mechanics are mostly drawn from the project shown in the course. Furthermore, I personally added a few twists into the gameplay mechanics, which I believe will bring out more gaming excitement from the players.
