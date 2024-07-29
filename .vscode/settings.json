@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Argon Assault - Copy.sln"
+    "dotnet.defaultSolution": "Argon-Assault.sln"
 }
