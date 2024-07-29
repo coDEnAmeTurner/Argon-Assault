@@ -9,8 +9,5 @@ public class MusicPlayer : MonoBehaviour
         if (num > 1) {
             Destroy(gameObject);
         }
-        else{
-            DontDestroyOnLoad(gameObject);
-        }
     }
 }

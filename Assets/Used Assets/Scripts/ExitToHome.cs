@@ -8,6 +8,8 @@ public class ExitToHome : ColorChangingText, IPointerClickHandler
 {
     public void OnPointerClick(PointerEventData eventData)
     {
+        
         SceneManager.LoadScene(0);
+
     }
 }

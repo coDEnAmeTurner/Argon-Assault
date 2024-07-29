@@ -19,21 +19,38 @@ public class Ship : MonoBehaviour
     GameObject tryAgain;
     GameObject exit;
 
+    bool uiOn = false;
+
     [Obsolete]
     private void Awake() {
         shipController = GetComponent<ShipControl>();
         masterTimeline = GameObject.FindGameObjectWithTag("Master Timeline").GetComponent<PlayableDirector>();
-        masterTimeline.played += HideCursor;
         tryAgain = GameObject.FindWithTag("Try Again");
         tryAgain.SetActive(false);
         exit = GameObject.FindWithTag("Exit");
         exit.SetActive(false);
     }
 
-    private void HideCursor(PlayableDirector director)
+    private void Update() {
+        StageClear sc = FindAnyObjectByType<StageClear>();
+
+        if (uiOn == false && sc == null)
+            HideCursor();
+        else 
+            ShowCursor();
+
+    }
+
+    private void HideCursor()
     {
         Cursor.visible = false;
     }
+
+    private void ShowCursor()
+    {
+        Cursor.visible = true;
+    }
+
 
     private void ResetShip(PlayableDirector director)
     {
@@ -57,6 +74,7 @@ public class Ship : MonoBehaviour
     {
         tryAgain.SetActive(true);
         exit.SetActive(true);
+        uiOn = true;
     }
 
     private void Explode()

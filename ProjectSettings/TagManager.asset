@@ -9,6 +9,7 @@ TagManager:
   - Try Again
   - Exit
   - Laser
+  - Music Player
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class StageClear : MonoBehaviour
 {
+    bool uiOn = false;
+
     public void DisplayClearUI() {
         DisplayScore();
         gameObject.SetActive(true);

@@ -5469,7 +5469,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.405
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -11506,6 +11506,10 @@ PrefabInstance:
     - target: {fileID: 3615815898473615633, guid: 4f061f240b8980e4c9f1913bb11c1b89, type: 3}
       propertyPath: m_Events.m_Events.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300635376257171724, guid: 4f061f240b8980e4c9f1913bb11c1b89, type: 3}
+      propertyPath: frameCount
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5300635376257171724, guid: 4f061f240b8980e4c9f1913bb11c1b89, type: 3}
       propertyPath: 'lasers.Array.data[1]'

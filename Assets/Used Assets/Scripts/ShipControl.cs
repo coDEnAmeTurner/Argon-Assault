@@ -17,6 +17,8 @@ public class ShipControl : MonoBehaviour
     [SerializeField] float sensitivity = 50f;
     [SerializeField] GameObject[] lasers;
 
+    [SerializeField] int frameCount = 2;
+
     bool firstMouse;
 
     Vector2 laserEulerRotation;
@@ -85,7 +87,10 @@ public class ShipControl : MonoBehaviour
             if (firstMouse)
             {
                 mousePos = new Vector2(currentMousePos.x, currentMousePos.y);
-                firstMouse = false;
+                if (frameCount == 0)
+                    firstMouse = false;
+                else 
+                    frameCount--;
             }
 
             float mouseXDiff = currentMousePos.x - mousePos.x;
