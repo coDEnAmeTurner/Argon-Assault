@@ -22,7 +22,7 @@ Assets used in this project included ones that are available in Unity Asset Stor
 # Download & Play!
 ![image](https://github.com/user-attachments/assets/47f47375-0c85-41a6-8cbb-da0248bd5368)
 
-- Under Release section of this repository, choose the Latest Release.
+- Under [<span color="green">**Release**</span>](https://github.com/coDEnAmeTurner/Argon-Assault/releases) section of this repository, choose the Latest Release.
 - Download rar file
 - Run the exe file and enjoy!
   
