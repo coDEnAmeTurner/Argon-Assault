@@ -20,11 +20,15 @@ Assets used in this project included ones that are available in Unity Asset Stor
 - [Complete C# Unity Game Developer 3D's Argon Assault SFX]()
 
 # Download & Play!
+![image](https://github.com/user-attachments/assets/47f47375-0c85-41a6-8cbb-da0248bd5368)
+
 - Under Release section of this repository, choose the Latest Release.
 - Download rar file
 - Run the exe file and enjoy!
   
 # Manual
+![image](https://github.com/user-attachments/assets/875cf802-827a-418c-b06a-d808356993c6)
+
 - WASD to move the ship
 - Mouse to aim 2 laser beams
 - L-Click to fire
